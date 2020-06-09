@@ -4,7 +4,7 @@ def oxford_comma(array)
   elsif array.length >= 3
     final_string = ""
     array.each do |index|
-      if array.equal? array.last
+      if index == array.last
         final_string << ", and"
       else
         final_string << index
