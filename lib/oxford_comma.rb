@@ -5,7 +5,9 @@ def oxford_comma(array)
     final_string
     array.each do |index|
       if array.equal? array.last
-        
+        final_string << ", and"
+      else
+        final_string << ", "
         
   end
 end
