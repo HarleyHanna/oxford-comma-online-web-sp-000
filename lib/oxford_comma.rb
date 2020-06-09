@@ -14,6 +14,6 @@ def oxford_comma(array)
     end
     return final_string
   elsif array.length == 1
-    return array.to_s
+    return array.join()
   end
 end
