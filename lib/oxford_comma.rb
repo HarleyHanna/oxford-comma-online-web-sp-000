@@ -7,7 +7,9 @@ def oxford_comma(array)
       if array.equal? array.last
         final_string << ", and"
       else
+        final_string << index
         final_string << ", "
-        
+      end
+    end
   end
 end
