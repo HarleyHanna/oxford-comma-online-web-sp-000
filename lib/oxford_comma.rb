@@ -12,7 +12,8 @@ def oxford_comma(array)
         final_string << ", "
       end
     end
-  els
     return final_string
+  elsif array.length == 1
+    return array.to_s
   end
 end
